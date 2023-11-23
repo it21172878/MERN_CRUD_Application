@@ -15,3 +15,36 @@
   border-radius: 5px;
   padding: 10px;
 }
+.userTable table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.userTable table thead th {
+  background-color: rgb(24, 9, 24);
+  color: purple;
+  padding: 10px;
+}
+.userTable table tbody td {
+  padding: 10px;
+  text-align: center;
+}
+.actionButtons button {
+  font-size: medium;
+  border: 0;
+  outline: none;
+  background: red;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.actionButtons a {
+  font-size: medium;
+  text-decoration: none;
+  background: green;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+}

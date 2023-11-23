@@ -22,9 +22,13 @@ const User = () => {
             <td>1.</td>
             <td>Dilanka</td>
             <td>sd@gmail.com</td>
-            <td>
-              <button>Delete</button>
-              <Link to={'/edit'}>Edit</Link>
+            <td className="actionButtons">
+              <button>
+                <i className="fa-solid fa-trash"></i>
+              </button>
+              <Link to={'/edit'}>
+                <i className="fa-solid fa-pen-to-square"></i>
+              </Link>
             </td>
           </tr>
         </tbody>
