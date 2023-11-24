@@ -22,7 +22,7 @@ const Add = () => {
     await axios
       .post('http://localhost:8000/api/create', user)
       .then((response) => {
-        toast.success('User added successfully!', {
+        toast.success(response.data.msg, {
           position: 'top-right',
         });
         navigate('/');
